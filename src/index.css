@@ -1,13 +1,28 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;400&family=Unbounded:wght@700&display=swap');
+@font-face {
+  font-family: 'MonumentExtended-UltraBold';
+  src: url('./fonts/monumentextended-ultrabold.otf');
+}
+@font-face {
+  font-family: 'MonumentExtended-Regular';
+  src: url('./fonts/monumentextended-regular.otf');
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.App {
+  background-size: 100% 100%;
+  background-position: 0px 0px,0px 0px,0px 0px;
+  background-image: radial-gradient(75% 75% at 100% 0%, #351260FF 0%, #073AFF00 100%),radial-gradient(50% 75% at 14% 100%, #0C3777FF 0%, #073AFF00 100%),linear-gradient(0deg, #060e1a 0%, #060e1a 100%);
+}
+
+.link-outlined {
+  -webkit-text-stroke: white 1px;
+  transition: all .4s ease-in-out;
+}
+
+.link-outlined:hover {
+  color:transparent
 }

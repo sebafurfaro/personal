@@ -1,0 +1,252 @@
+{
+  "heros": [
+    {
+      "id": 1,
+      "display1": "Frontend",
+      "display2": "Developer",
+      "summary": "Hola! Mi nombre es Sebastián Furfaro y me encuentro en 🇦🇷. Tengo +10 años trabajando en desarrollo web.",
+      "button": "Hablemos!",
+      "lottie": "../image/animation.json"
+    }
+  ],
+  "about": [
+    {
+      "title": "[About] me",
+      "image": "../image/about-me.jpg",
+      "summary": "Hola! Soy Sebastián Furfaro. Soy Frontend Developer y Licenciado en Publicidad.",
+      "experience": "Tengo más de 10 años de experiencia trabajando en proytectos web de todo tipo, desde eCommerce hasta institucionales, Blogs, Landings de producto. Estoy constantemente aprendiendo nuevas tecnologías y formas para transformar ideas en proyectos sostenibles y escalables.",
+      "education": [
+        {
+          "id": 1,
+          "title":"Universidad de Palermo",
+          "school": "../image/logo-up.jpeg"
+        },
+        {
+          "id": 2,
+          "title":"CoderHouse",
+          "school": "../image/logo-coderhouse.svg"
+        },
+        {
+          "id": 3,
+          "title":"EducacónIT",
+          "school": "../image/logo-eduit.svg"
+        },
+        {
+          "id": 4,
+          "title":"Udemy",
+          "school": "../image/logo-udemy.svg"
+        }
+      ],
+      "programmingLanguajes": [
+        {
+          "id": 1,
+          "title": "HTML/CSS",
+          "level":""
+        },
+        {
+          "id": 2,
+          "title": "Javascript",
+          "level":""
+        },
+        {
+          "id": 3,
+          "title": "SCSS",
+          "level":""
+        },
+        {
+          "id": 4,
+          "title": "React.JS",
+          "level":""
+        },
+        {
+          "id": 5,
+          "title": "Vue.JS",
+          "level":"trainee"
+        },
+        {
+          "id": 6,
+          "title": "Git(hub)",
+          "level":""
+        },
+        {
+          "id": 7,
+          "title": "GSAP",
+          "level":"trainee"
+        },
+        {
+          "id": 8,
+          "title": "PHP",
+          "level":""
+        }
+      ],
+      "tools": [
+        {
+          "id": 1,
+          "title": "Photoshop",
+          "level":""
+        },
+        {
+          "id": 2,
+          "title": "VSCODE",
+          "level":""
+        },
+        {
+          "id": 3,
+          "title": "Illustrator",
+          "level":""
+        },
+        {
+          "id": 4,
+          "title": "Figma",
+          "level":""
+        },
+        {
+          "id": 5,
+          "title": "Adobe XD",
+          "level":""
+        },
+        {
+          "id": 6,
+          "title": "Postman",
+          "level":"Beginner"
+        },
+        {
+          "id": 7,
+          "title": "Confluence/Jira",
+          "level":""
+        }
+      ],
+      "slogan": "Me enfoco en construir experiencias tecnológicas del futuro, conjugando mis skills y la experiencia de usuario.",
+      "cv": "../image/sebafurfaro_cv.pdf"
+    }
+  ],
+  "contact": [
+    {
+      "mailtoTitle": "Escribime, no muerdo 😉",
+      "mailtoMail": "seba.furfaro@gmail.com",
+      "copyright": "- Derechos reservados",
+      "social": [
+        {
+          "id": 1,
+          "title": "Instagram",
+          "url": "https://www.instagram.com/seba_furfaro/"
+        },
+        {
+          "id": 2,
+          "title": "Github",
+          "url": "https://github.com/sebafurfaro"
+        },
+        {
+          "id": 3,
+          "title": "Codepen",
+          "url": "https://codepen.io/sebafurfaro"
+        },
+        {
+          "id": 4,
+          "title": "Linkedin",
+          "url": "https://www.linkedin.com/in/sebastianfurfaro/"
+        }
+      ]
+    }
+  ], 
+  "projects": [
+    {
+      "id": 1,
+      "title": "55 Jewelry",
+      "techno": "WordPress, WooCommerce",
+      "summary": "Proyecto especializado en la comercialización de joyería en Chile",
+      "img": "../image/cincocinco.jpg",
+      "url": "https://cincocinco.cl/"
+    },
+    {
+      "id": 2,
+      "title": "Gawico S&H",
+      "summary": "Empresa dedicada al sector de seguridad e higiene en el trabajo, residente en Argentina",
+      "techno": "WordPress",
+      "img": "../image/gawico.jpg",
+      "url": "https://gawico.com.ar/"
+    },
+    {
+      "id": 3,
+      "title": "Litteri Pisos",
+      "techno": "WordPress",
+      "summary": "Empresa familiar pionera en Argentina para pisos de hormigón",
+      "img": "../image/litteri.jpg",
+      "url": "https://litteri.com.ar/"
+    },
+    {
+      "id": 4,
+      "title": "Parque 3 Volcanes",
+      "techno": "WordPress",
+      "summary": "Radica en un proyecto inmobiliario en la zona de Parque Tres Volcanes, Chile",
+      "img": "../image/parque3volcanes.jpg",
+      "url": "https://www.parquetresvolcanes.com/"
+    },
+    {
+      "id": 5,
+      "title": "Pro Truck",
+      "techno": "WordPress",
+      "summary": "Están especializados en transportes en toda la región de Chile",
+      "img": "../image/protruck.jpg",
+      "url": "https://protruck.cl/"
+    },
+    {
+      "id": 6,
+      "title": "Tobalaba Palena",
+      "techno": "WordPress",
+      "summary": "Este es un proyecto inmobiliario imoprtantísimo en Chile",
+      "img": "../image/tobalaba.jpg",
+      "url": "https://tobalabapalena.cl/"
+    },
+    {
+      "id": 7,
+      "title": "Val-Media Eventos",
+      "techno": "WordPress",
+      "summary": "Empresa dedicada a eventos en Argentina",
+      "img": "../image/valmedia.jpg",
+      "url": "http://val-media.com.ar/"
+    },
+    {
+      "id": 8,
+      "title": "Wanka",
+      "techno":"WordPress",
+      "summary": "Wanka se conforma como un espacio arquitectónico entre las zonas de Matanzas y Puertecillo, Chile",
+      "img": "../image/wanka.jpg",
+      "url": "https://wanka.cl/"
+    }
+  ],
+  "works": [
+    {
+      "id": 1,
+      "title": "Portolio",
+      "techno": "React.Js, Tailwind CSS, Framer Motion",
+      "summary": "Iusto, sed veniam blanditiis nihil porro quasi laboriosam illum consequuntur, animi corrupti nesciunt sit laudantium asperiores libero labore nobis aliquam autem repudiandae.",
+      "url": "https://wwww.example.com/",
+      "img": "../image/project-1.jpg"
+    },
+    {
+      "id": 2,
+      "title": "ToDo",
+      "techno": "React.Js, Tailwind CSS, Framer Motion",
+      "summary": "Iusto, sed veniam blanditiis nihil porro quasi laboriosam illum consequuntur, animi corrupti nesciunt sit laudantium asperiores libero labore nobis aliquam autem repudiandae.",
+      "url": "https://wwww.example.com/",
+      "img": "../image/project-2.jpg"
+    },
+    {
+      "id": 3,
+      "title": "eCommerce",
+      "techno": "React.Js, Tailwind CSS, Framer Motion",
+      "summary": "Iusto, sed veniam blanditiis nihil porro quasi laboriosam illum consequuntur, animi corrupti nesciunt sit laudantium asperiores libero labore nobis aliquam autem repudiandae.",
+      "url": "https://wwww.example.com/",
+      "img": "../image/project-4.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Blog",
+      "techno": "React.Js, Tailwind CSS, Framer Motion",
+      "summary": "Iusto, sed veniam blanditiis nihil porro quasi laboriosam illum consequuntur, animi corrupti nesciunt sit laudantium asperiores libero labore nobis aliquam autem repudiandae.",
+      "url": "https://wwww.example.com/",
+      "img": "../image/project-5.jpg"
+    }
+  ]
+}
